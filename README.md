@@ -1,9 +1,18 @@
-
 ## Flash
+
+使用 esptool 烧写：
 
 ```
 esptool.py -p (PORT) -b 921600 write_flash --flash_mode dio --flash_size detect --flash_freq 40m 0x10000 bin/ESPlane2S2.bin 0x1000 bin/bootloader.bin 0x8000 bin/partition-table.bin
 ```
+
+或者使用 Flash 下载工具：
+
+<div align="center">
+   <img src="_static/download_tool.png" width = "450" alt="android_app_download" align=center />
+</div>
+
+
 
 ## App
 
