@@ -30,7 +30,7 @@ App Store search  `ESPDrone`
 
 ## Password
 
-* SSID：ESPLANE_XXXX
+* SSID：ESPDRONE_XXXX
 * PASSWORD：12345678
 
 ## Test
